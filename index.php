@@ -160,7 +160,7 @@ html {
                             <p>We are number one source for all solutions with coding. Our services include web design, social / digital marketing and software solutions. We're dedicated to providing you the very best of coding solutions, with an emphasis on effectiveness, timely delivery and client satisfaction.</p>
 
                             <pre class="brush: html" >        
-                            IP ADDRESS : 127.0.0.1
+                            IP ADDRESS : <?php echo $ip; ?>
                             <!-- Type your codes here  -->    
                             </pre>
                             
