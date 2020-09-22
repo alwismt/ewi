@@ -19,11 +19,11 @@ function getRealIpAddr()
 }
 ?>  
 
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ewisnet Internet Solutions</title>
+    <meta name="theme-color" content="#081426">
         <!-- favicon -->
         <link rel="icon" href="https://ewisnet.com/icon.png" sizes="32x32" />
         <!-- bootstrap -->
@@ -86,7 +86,32 @@ html {
 
 
         </style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152514592-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-152514592-1');
+</script>
+
+
+
+
+	
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5e883ef669e9320caac026a3/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
 
 </head>
     <body>
@@ -619,7 +644,7 @@ html {
             </span>
         </div>
         <!-- scrolltop button end -->
-
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
         <!-- jquery -->
         <script src="assets/js/jquery-2.2.4.min.js"></script>
         <!-- bootstrap js -->
