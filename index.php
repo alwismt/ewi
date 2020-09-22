@@ -90,14 +90,8 @@ html {
 
 </head>
     <body>
-        <!-- Preloader -->
-        <!-- <div class="loader">
-            <h2>Think Twice🤔<br>
-            <span>Code</span> Once.</h2>
-        </div> -->
-        <!-- Preloader End -->
-        <!-- HEADER AREA START -->
-        <header class="header" id="myHeader" style="height: 80px; padding: 0px; margin: 0px;">
+
+        <header class="header" id="myHeader">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 d-flex align-items-center">
@@ -130,12 +124,21 @@ html {
         </header>
         <!-- mobile menu -->
         <div class="mobile-menu d-none">
-            <!-- <nav id="mobile-menu">
+            <nav id="mobile-menu">
                 <ul>
-                    <li><a href="JavaScript:void">Contact Us : &nbsp; +44 &nbsp;7441 &nbsp;399147 &nbsp; / &nbsp;+94 &nbsp;77 &nbsp;324 &nbsp;8329</a></li></a></li>
+                    <li><a href="JavaScript:void" onclick="JavaScript:$('html, body').animate({scrollTop: $('#upper').offset().top -240 }, 'slow');">Home</a></li>
+                                    
+                    <li><a href="JavaScript:void" onclick="JavaScript:$('html, body').animate({scrollTop: $('#services').offset().top -140 }, 'slow');">Services</a></li>
+
+                    <li><a href="JavaScript:void" onclick="JavaScript:$('html, body').animate({scrollTop: $('#help').offset().top -620 }, 'slow');">Got stuck?</a></li>
+
+
+                    <li><a href="JavaScript:void" onclick="JavaScript:$('html, body').animate({scrollTop: $('#aboutus').offset().top -240 }, 'slow');">About Us</a></li>
+                    
+                    <li><a href="JavaScript:void" onclick="JavaScript:$('html, body').animate({scrollTop: $('#contact').offset().top -140 }, 'slow');">Contact </a></li>
                     
                 </ul>
-            </nav> -->
+            </nav>
         </div>
         <!-- mobile menu end -->
         <!-- HEADER AREA END -->
@@ -157,7 +160,7 @@ html {
                             <p>We are number one source for all solutions with coding. Our services include web design, social / digital marketing and software solutions. We're dedicated to providing you the very best of coding solutions, with an emphasis on effectiveness, timely delivery and client satisfaction.</p>
 
                             <pre class="brush: html" >        
-                            IP ADDRESS : <?php echo $ip ;?>
+                            IP ADDRESS : 127.0.0.1
                             <!-- Type your codes here  -->    
                             </pre>
                             
